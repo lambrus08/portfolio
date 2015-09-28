@@ -1,0 +1,65 @@
+#title {
+    border: solid 1px black;
+    height: 15vh;
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+#left_nav {
+    width: 15vw;
+    background-color: lightcyan;
+    float: left;
+    border: solid 1px black;
+    height: 200vh;
+    text-align: center;
+    padding: 5px;
+
+}
+
+#main_content {
+    background-color: #f9f9f9;
+    float: left;
+    border: solid black 1px;
+    width: 81vw;
+    height: 200vh;
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+
+}
+
+.xp {
+    list-style-type: none;
+    font-family: cursive;
+}
+li {
+    list-style-type: none;
+}
+
+#left_nav h1 {
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+#left_nav h3 {
+    font-family: cursive;
+}
+
+#title h1 #b1 {
+    font: normal 70px/1 "VT323", Helvetica, sans-serif;
+    color: rgba(255,255,0,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 5px 5px 0 rgba(255,0,0,1) ;
+}
+
+#left_nav h1 #b2 {
+    font: normal 50px/1 "VT323", Helvetica, sans-serif;
+    color: rgba(255,255,0,1);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 5px 5px 0 rgba(255,0,0,1) ;
+}
