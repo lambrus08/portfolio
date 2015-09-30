@@ -1,69 +1,153 @@
-# Portfolio Project
-## Overview
-This project is used to present the skills you learn through the program to potential employers. All employers will be looking for a portfolio site that has good coding & visual examples. The different versions of this project are directly related to the skill sets that you should have obtained at the time. This project the type of project that will be worked on through the program and is the default project to work on when you feel like you are caught up on all other items (Weekly Projects, Readings, Videos, Prototypes, Skill Assessments).
+# MBoutique
 
-##Versions
+## Assignment 1
+We will be building out the first page of the MBoutique website
 
-### Version 1 (v1)
-> #### Overview
+## Code Setup Details
 
-> This Version is done during the first couple weeks and allows you to practice the basics of HTML with your own flare. The scope for this version asks the student to choose a layout and integrate what they have learned from the Resources they have consumed and the prototypes they have done and put it into one cohesive version of a project.
+#####1. Open PHPStorm
 
-> #### Getting Started
-> - Fork this Repo by clicking on the <b>Fork</b> button in the top right of this page
-> - Clone the newly created repo to your local machine
->   - `git clone https://github.com/[your_user_name]/portfolio.git` - <b>change out [your_user_name]</b>
-> - Create feature branch
->   - `git checkout -b v1`
-> - Work on the scope defined below
-> - Add files to git
->   - `git add .`
-> - Commit files (Group Files together)
->   - `git commit -m "Portfolio V1 - Eric Johnson""` - <b>replace Eric Johnson with your name</b>
-> - Send to Github (Push)
->   - `git push origin v1`
+> You should be opening phpStorm to your lfz directory for all projects
 
-> #### Scope - <a href="https://github.com/Learning-Fuze/portfolio#v1">View</a>
+> Expand the mBoutique folder to view the project files
 
-> #### Related Videos
+> Make sure to add all project related files to the proper directory
+>	- For this project it should be: `lfz/mboutique`
 
-> - Internet & Browsers - <a href="https://www.youtube.com/watch?v=pcwNtWyzwJo" target="_blank">Video</a> |  <a href="https://drive.google.com/open?id=0B6mn1BHjNxTgYk9VaTNGVlgzSzg" target="_blank">Slides</a>
-> - Elements & Attributes - <a href="https://www.youtube.com/watch?v=2vqL3OsxRLE" target="_blank">Video</a> | <a href="https://drive.google.com/open?id=0B6mn1BHjNxTgRmpyVVNoQXM0a1k" target="_blank">Slides</a>
-> - Text Formatting & Style - <a href="https://www.youtube.com/watch?v=P5sPEr52OVs" target="_blank">Video</a> | <a href="https://drive.google.com/open?id=0B6mn1BHjNxTgUDBsRlVRUnFCQjg" target="_blank">Slides</a>
-> - Head & Style Tags - <a href="https://www.youtube.com/watch?v=Jnirh7CCMW8" target="_blank">Video</a> | <a href="https://drive.google.com/open?id=0B6mn1BHjNxTgVk96ei1wRE9pd0k" target="_blank">Slides</a>
-> - Links, Images & Text Styling - <a href="https://www.youtube.com/watch?v=w8robcf8-GY" target="_blank">Video</a> | <a href="https://drive.google.com/open?id=0BwjF2I7CBLDVRXMxdzhxRDlmRVk" target="_blank">Slides</a>
-> - Layout Structure & Design - <a href="https://www.youtube.com/watch?v=0-WRsALktzE" target="_blank">Video</a> | <a href="https://drive.google.com/open?id=0B7eOl4joefDucHBiVF9lUnRqM1E" target="_blank">Slides1 <a href="https://drive.google.com/open?id=0BwjF2I7CBLDVWFFtNnowaFp3d28" target="_blank">Slides2</a>
+#####2. Navigate to mBoutique in the terminal
 
-> #### Related Prototypes
+> Insert this command in the terminal tab
 
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/html_fundamentals_1" target="_blank">HTML - Elements, Attributes, and comments</a>
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/html_fundamentals_2" target="_blank">Prototype - HTML Text Formatting/Styling</a>
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/html_fundamentals_3" target="_blank">HTML Head - internal/external styles & links</a>
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/html_fundamentals_4" target="_blank">Prototype - HTML Links, Images & Lists</a>
-> - <a href="https://github.com/Learning-Fuze/prototypes/tree/master/html_fundamentals_4" target="_blank">Prototype - HTML Layout Structure, Blocks & Design</a>
+> `cd mboutique` & press enter
 
-### Version 2 (v2) - <b>Coming Soon</b>
+> - this changes the directory to the mboutique folder
+> - If you get an error with the above command its probably because you are already within the correct directory
 
-## Scopes
+#####3. Create a feature grouping (*Create feature branch*)
 
-### v1
-> 1. Choose a layout from html_fundamentals_5 prototype - view
-> 1. Take content you have previously generated in past prototypes and do the following:
->   1. Required Content Sections
->       1. About Me
->           1. Short bio about what your background is
->           1. Why you are taking this class
->           1. What type of job you want to get
->           1, Why you are hungry for that job
->       1. Skills
->           1. Add at least 5 relevant tech skills that you hope to achieve by end of class
->       1. Experience
->           1. Add at least 2 recent jobs & descriptions
->       1. Contact Me
->           1. Github Account Link
->           1. Email Address
->           1. LinkedIn Profile Link
->           1. Contact form
->       1. Add content to appropriate section / page (depending on the layout choice) in your portfolio project
->       1. Create an appropriate menu in your layout’s nav/header section
->           1. Link menu items to required content pages or sections (as defined in the layouts in the prototype referenced above)
+> Insert & execute these command in the terminal tab individually
+
+> `git checkout master` & press enter
+> - The command above switches to the default branch
+
+> `git checkout assignment_1`
+> - Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
+> - Any modifications to these files after <b>branching</b> can be undone
+> - "assignment_1" is the branch name.
+
+## Coding Instructions
+
+### Feature Set 1
+> - Create the HTML and CSS necessary to reproduce the MBoutique home/welcome page
+	- Use the index.html file for your HTML
+	- Use the style.css file for your CSS
+- Use the design images for reference (Found in the assets folder)
+
+#### Screenshot Example
+
+> <img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/mboutique_preview/screenshots/Welcome_Screenshot.png?raw=true" alt="MBoutique Home Page Screenshot">
+
+#### Design Doc
+
+> <img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/mboutique_preview/_preview_explained/welcome_exp.png?raw=true" alt="MBoutique Home Page Design Doc">
+
+#### Suggestions
+> - Break the page down into sections and build one section at a time. For example:
+	- Header section
+	- Body/Main content section
+	- Footer section
+- Keep in mind that there are multiple pages
+	- Notice the sections that are the same on all pages like the header and footer
+	- Design your HTML so that it will be easy to reuse the header and footer sections on all the pages
+- Don't panic
+	- If you get stuck or have any issues use google or the LearningFuze forum
+- If you are familiar with them, make use of the chrome developer tools to prototype out your changes.
+	- You can find more details on [chrome developer tools](http://discover-devtools.codeschool.com/) on codeschool and other places.
+- Test each CSS change as you implement it.  It can be difficult to ascertain "what went wrong" if you do many lines of code and then test it.
+- Pay attention to the gross details first, and then make a second pass for fine details.
+
+## After Coding Details
+##### 1. Save files to Git - Add all modified & created files
+> Run below command in terminal tab
+
+> `git add .`
+
+> Saving files to Git registers the changed files in Git, allowing them to be grouped together by a message (commit)
+
+##### 2. Package (group) all saved git files with a commit message
+
+> Run below command in terminal tab
+
+> `git commit -m "mboutique Assignment_1 - Eric Johnson"`
+> - Eric Johnson should be replaced with your First & Last name
+> - Grouping files with a message allows those changes to be seen by others as a specific version of the code
+
+##### 3. Allow others to see your changes by uploading them to the Github website
+
+> Run below command in terminal tab
+
+> `git push origin assignment_1`
+> - When running the code above, the Git application will send all commits (<b>groupings of saved files</b>) to the
+remote location (<b>github.com/[your-user-name]/mboutique indicated by origin</b>), specifically to the feature
+branch/group <b>assignment_1</b>
+
+##### 4. See if your feature fits with what everyone else was working on (Pull Request)
+
+> ####Step 4.1 Open your mboutique Repo in the browser
+> - The link Should follow this format github.com / [your user name] / mboutique
+
+> ####Step 4.2 Click Pull request tab to open the pull request list
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" width="350"/></a>
+
+> ####Step 4.3 Click "New Pull request" button
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blo b/assets/assets/example/2.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/2.jpg?raw=true" width="800" /></a>
+
+> ####Step 4.4 Comparing Changes
+
+> During this step there are a hand full of highlighted things that need to be taken into consideration.
+
+> ###The image below is just an example.
+
+> ###Make sure to change the options according to the written directions below
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a>
+
+> 1. `base fork: Learning-Fuze/mboutique`
+> 1. `base: C#_userName`
+>   1. Here you will select the option that matches your username
+>   1. If you can not locate an option that has your username, contact an instructor
+> 1. `head fork: [your_user_name]/mboutique`
+>   1. Here you will select the option that matches your username / mboutique
+>   1. If you can not locate an option that has your username / mboutique, contact an instructor
+> 1. `compare: assignment_1`
+>   1. Here you will locate the branch name (or feature name) you created at the beginning of the assignment
+> 1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
+>   1. If the text says something other than "able to merge". <b>Contact an instructor</b>
+>   1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by instructors at start)
+> 1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button (#5 in the image above)
+
+> ---
+
+> ####Step 4.4 Add details into the pull request
+> 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
+>   1. If you set the commit message above you should get get <b>mboutique Assignment_1 - [you name first & last
+name]</b> already pre populated in the Title field
+> 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
+>   1. Further into the cohort we will have students learn to review pull requests
+> 1. Click on "Create pull Request"
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" width="800" /></a>
+
+> ---
+
+##### 5. Collaborate on feedback
+
+> Within the Github.com UI another developer or in this case an instructor will review the Pull Request you made - <b>Is your feature working</b>. Collaboration happens through github UI & the notifications are sent through email when comments are added to pull requests
+
+> - Students should make modifications to there code based on the instructors feedback
+> - Instructors will be giving an initial assessment based on the pull request. <b>Any additional collaboration after the instructor has been feedback will be on a requested basis only.</b>
+
+##### 6. Pull Request Closed
+> - In the LearningFuze workflow the pull requests are closed to indicate assessment has been given to the student and recorded.

@@ -20,9 +20,9 @@
 
 #main_content {
     background-color: #f9f9f9;
-    float: left;
+    float:left;
     border: solid black 1px;
-    width: 81vw;
+    width: 80vw;
     height: 200vh;
     text-align: center;
     padding: 10px;
