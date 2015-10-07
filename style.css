@@ -1,131 +1,65 @@
-
-#container {
-    width: 75%;
-    height: 15em;
-    margin: auto;
-    font-size: 100%;
-    
-    
+html {
+    font-size: 90%
 }
-#title {
+@media only screen and (min-width: 376px) {
+    body {
+        font-size: 100%;
+    }
+}
+
+
+
+body {
+    font-size: 16px;
+    max-width: 100%;
+    margin: auto;
+
+
+}
+
+header {
     border: solid 1px black;
     background-color: dodgerblue;
+    height: 20vh;
     text-align: center;
-    padding: 1%;
-    font-family: sans-serif;
+
 }
 
+span {
+    font: normal 10vh/1 "VT323", Helvetica, sans-serif;
+    color: rgba(255, 255, 0, 1);
+    text-shadow: .06em .06em 0 rgba(255, 0, 0, 1);
 
+}
 
 #left_nav {
-    background-color: lightcyan;
-    width: 15%;
+    width: 25%;
     display: inline-block;
     float: left;
-    padding-top:10%;
-    font-size: 100%;
-
-    
-}
-
-#about {
-    width: 84%;
-    display: inline-block;
-    float: left;
-    font-size: 1.2em;
-}
-
-
-
-
-
-
-li {
-    list-style-type: none;
-}
-
-#left_nav h1 {
     font-family: fantasy;
-    font-style: oblique;;
-
-}
-
-
-
-.left_nav_items   {
-    font-family: cursive;
-    padding-top: 65%;
-}
-h3 {
-    font-size:100%;
-}
-#title h1 #b1 {
-    font: normal 7vh /1 "VT323", Helvetica, sans-serif;
-    color: rgba(255,255,0,1);
     text-align: center;
-    text-shadow: .08em .08em 0 rgba(255,0,0,1) ;
-}
-
-#left_nav h1 #b2 {
-    font: normal 10vh/1 "VT323", Helvetica, sans-serif;
-    color: rgba(255,255,0,1);
-    text-shadow: .06em .06em 0 rgba(255,0,0,1) ;
-}
-
-.contact {
-    width: 75%;
-    background-color: lightcyan;
-    margin: auto;
-
-
-
-}
-
-.emails li {
-    display: inline;
     font-size: 2.5vh;
-    padding-left: 4%;
-    font-family: fantasy;
+    padding-top: 10%;
+    line-height: 400%;
+
+
 }
 
-form {
-    padding: 5%;
+div:nth-child(1) {
+    background-color: lightcyan;
+    display: inline-block;
+
 }
 
-input {
-    width: 35%;
-    height: 4vh;
+#main_content {
+    display: inline-block;
+    width: 75%;
+    float: left;
+    background-color: ghostwhite;
+
 }
-textarea {
-    height: 30vh;
-    width: 35%;
-}
-@media all {
-    .contact {
-        width: 100%;
-    }
-    #container {
-        width: 100%;
 
-
-    }
-    #title h1 #b1 {
-        font-size: 100%;
-    }
-
-    #left_nav h1 #b2 {
-
-
-    }
-    .left_nav_items {
-        font-size: 100%;
-
-    }
-    #about {
-        font-size: 2vh;
-    }
-    h3 {
-        font-size: 100%;
-    }
+.xp {
+    list-style-type: none;
 }
 
