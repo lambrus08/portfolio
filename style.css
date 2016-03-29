@@ -1,3 +1,4 @@
+/*
 html {
     font-size: 90%
 }
@@ -6,113 +7,21 @@ html {
         font-size: 100%;
     }
 }
-
-
-
-body {
-    font-size: 16px;
-    width: 100%;
-    margin: auto;
-
-
-}
-
-header {
-    border: solid 1px black;
-    background-color: dodgerblue;
-    height: 20vh;
-    text-align: center;
-
-}
-
-span {
-    font: normal 10vh/1 "VT323", Helvetica, sans-serif;
-    color: rgba(255, 255, 0, 1);
-    text-shadow: .06em .06em 0 rgba(255, 0, 0, 1);
-
-}
-
-#left_nav {
-    width: 25%;
-    display: inline-block;
-    float: left;
-    font-family: fantasy;
-    text-align: center;
-    font-size: 2.5vh;
-    padding-top: 10%;
-    line-height: 400%;
-
-
-}
-
-#container #background {
-    background-color: lightcyan;
-    display: inline-block;
-
-}
-
-#main_content {
-    display: inline-block;
-    width: 75%;
-    float: left;
-    background-color: ghostwhite;
-
-}
-
-.xp {
-    list-style-type: none;
-}
-
-.contact {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    background-color: lightcyan;
-
-}
-h2{
-    font-family: monospace;
-    color: dodgerblue;
+*/
+h1 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 65px;
+    line-height: 100px;
 }
 
 
-
-
-.emails li {
-    list-style-type: none;
-    line-height: 1.5em;
-    font-family: fantasy;
-    color: #5e44b3;
-
+img {
+    height: 80vh;
+    width: 100vw;
 }
 
-form {
-    display: inline-block;
-    position: relative;
-    width: 80%;
-}
-
-input:nth-child(-n+5){
-    width: 80%;
-    height: 4vh;
-    background-color: aliceblue;
-    font-style: italic;
-    font-size: .90em;
-
-
-}
-textarea    {
-    width: 60%;
-    height: 20vh;
-    background-color: lightyellow;
-    font-size: .90em;
-}
-
-input:last-child {
-    width: 40%;
-    background-color: #ffffaa;
-    font-size: 1.2em;
-    color: #5e44b3;
-
+.container{
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
 }
